@@ -99,13 +99,3 @@ NSArray *array = @[@"one", @"two", @"three"];
 NSDictionary *dict = @{@"key" : @"value"};
 NSNumber *number = @12;
 ```
-
-### nil check
-
-Explicit `nil` check should be used in yoda style.
-```objc
-if (nil != user)
-{
-	// Do something
-}
-```
